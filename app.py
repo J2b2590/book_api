@@ -1,4 +1,7 @@
 import requests
+# from book_search import book_search
+
+
 # request module
 
 user_search = input("What kind of book are you looking for: ")
@@ -12,12 +15,14 @@ response = response.json()
 for item in response.get('items', [])[:5]:
     if 'title' not in item['volumeInfo'] or 'authors' not in item['volumeInfo'] or 'publisher' not in item[
         'volumeInfo']:
+
         continue
     # iterating over items in our api call and splicing to show only 5 data points
     # and only showing item.volumeInfo.authors,item.volumeInfo.title, and item.volumeInfo.publisher
 
-    book_choice = "Title: %s, Author: %s, Publisher: %s" % (
+    book_choice = "TITLE: %s,   "   "AUTHOR: %s,   "  "PUBLISHER: %s " % (
         item['volumeInfo']['title'], item['volumeInfo']['authors'], item['volumeInfo']['publisher'])
+
     print(book_choice)
 
     # creating book_choice var to store data from the loop and printing desired information
