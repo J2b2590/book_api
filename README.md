@@ -6,6 +6,6 @@ The user is then able to create a reading list of books from their search.
 
 
 ```python
-import requests
+import requests using pip install requests in Terminal
 
 ```
