@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c116c10b-611f-4982-852f-afb99567f0a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_book_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_book_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_book_search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_book_search.TestBookSearch.test_validation">
+  <component name="RunManager" selected="Python tests.Unittests for test_book_search.TestBookSearch">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book__api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,7 +104,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_book_search.TestBookSearch.test_validation_string" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_book_search.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="book__api" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,17 +114,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_book_search.TestBookSearch.test_validation_string&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_book_search.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_validation" />
         <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch" />
         <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_query_api" />
-        <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_validation_string" />
+        <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_validation" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Unittests in test_book_search.py" />
       </list>
     </recent_temporary>
   </component>
