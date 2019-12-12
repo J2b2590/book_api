@@ -11,7 +11,7 @@ class TestBookSearch(unittest.TestCase):
         search_text = "You have entered an invalid book name, please try again "
         while not user_search:
             user_search = input(search_text)
-            self.assertFalse(user_search == search_text)
+            self.assertTrue(user_search == search_text)
         if from_list:
             while not any(book["title"] == user_search for book in self.response_list):
                 user_search = input(search_text)

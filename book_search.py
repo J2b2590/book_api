@@ -16,6 +16,7 @@ class book_search:
 
     def query_api(self):
         self.user_search = input("What kind of book are you looking for: ")
+        self.user_search = self.validation(self.user_search)
         # user search sent to validation
         self.response = requests.get('https://www.googleapis.com/books/v1/volumes?q=' + self.user_search)
         self.response = self.response.json()

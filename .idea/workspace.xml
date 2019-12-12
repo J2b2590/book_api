@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_book_search.TestBookSearch">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="book__api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,10 +119,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_validation" />
         <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch" />
         <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_query_api" />
-        <item itemvalue="Python tests.Unittests for test_book_search.TestBookSearch.test_validation" />
-        <item itemvalue="Python.app" />
         <item itemvalue="Python tests.Unittests in test_book_search.py" />
       </list>
     </recent_temporary>
