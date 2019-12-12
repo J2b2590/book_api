@@ -4,13 +4,12 @@ import requests
 class book_search:
 
     def validation(self, user_search, from_list=False):
-        # additional validation goes here / user cannot enter nothing
+        # additional validation goes here
         search_text = "You have entered an invalid book name, please try again "
         while not user_search:
             user_search = input(search_text)
         if from_list:
-            # from_list is True, checking if book title matches,
-            # if not user search will show search text for another input
+            # checking if book title matches if not user search will show search text for another input
             while not any(book["title"] == user_search for book in self.response_list):
                 user_search = input(search_text)
         return user_search
@@ -38,7 +37,7 @@ class book_search:
             self.response_list.append(book)
 
             print(book_choice)
-    # reserve method created to allow user in app.py to query again after book is added to their reading list
+
+    # method query created to allow user in app.py to query again after
     def __init__(self):
         self.query_api()
-
