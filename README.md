@@ -2,7 +2,7 @@
 
 Using the google books api this app is able to request data via requests module. 
 The user is able to query the google books api and find books on the topics related to their search.
-The user is then able to create a reading list of books from their search and save desired books to their reading list.
+The user is then able to create a reading list of books and save desired books.
 
 
 ## Prerequisites
@@ -20,8 +20,9 @@ pip install unittest
 
 ## Using unittest
 
-Go to test_book_search.py and click run test button next to tested functions
+Go to test_book_search.py and click run test button next to the functions being tested
 
 ### Test 
 The first Test is testing user input to show that the user is not inputing blank data.
+
 The second Test is testing the book variable showing the title, author, and publisher are being stored once user input has been entered.
