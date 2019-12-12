@@ -13,7 +13,7 @@ Python Version 2.7.10
 Once in the application, either in your Terminal or in your IDE you will have to install requests 
 and install unittest.
 
-Terminal:
+Terminal
 pip install requests 
 pip install unittest 
 
