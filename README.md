@@ -14,8 +14,8 @@ Once in the application, either in your Terminal or in your IDE you will have to
 and install unittest.
 
 Terminal
-pip install requests 
-pip install unittest 
+- pip install requests 
+- pip install unittest 
 
 
 ## Using unittest
